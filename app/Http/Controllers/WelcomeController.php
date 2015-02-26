@@ -33,4 +33,14 @@ class WelcomeController extends Controller {
 		return view('welcome');
 	}
 
+    /**
+     * Show basic interview questions
+     *
+     * @return Response
+     */
+    public function code()
+    {
+        return view('code');
+    }
+
 }
